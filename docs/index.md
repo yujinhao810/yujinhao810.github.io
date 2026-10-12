@@ -2,11 +2,11 @@
 layout: home
 title: 记录代码，也记录思考
 titleTemplate: false
-description: 一个关于前端、工程化与 AI Agent 的个人技术博客
+description: 前端八股、算法与 Agent 技术的学习与实践
 hero:
-  name: 个人技术博客
-  text: 把复杂问题，拆成可复用的经验
-  tagline: 关注 Frontend、JavaScript、Vue、Node.js 与 AI Agent。用小步迭代，写下可验证的技术实践。
+  name: JynxHao
+  text: 理解前端，拆解算法，构建 Agent
+  tagline: 一份面向长期积累的技术笔记，记录原理、思路与工程实践。
   actions:
     - theme: brand
       text: 阅读最新文章
@@ -16,26 +16,26 @@ hero:
       link: /about
 features:
   - icon: ◈
-    title: 面向问题写作
-    details: 从真实的工程问题出发，记录上下文、取舍、实现与复盘。
+    title: 前端八股
+    details: JavaScript、浏览器、Vue、工程化与面试高频知识，回到原理本身。
   - icon: ◌
-    title: 小而清晰的示例
-    details: 用可运行的代码解释概念，让文章能成为下一次排查问题的起点。
+    title: 算法题解
+    details: 用清晰的思路拆解题目，说明正确性、复杂度和可迁移的解法。
   - icon: △
-    title: 持续更新
-    details: 文章、项目和学习方向都会随实践变化，欢迎通过 GitHub 交流。
+    title: Agent 技术
+    details: 关注 RAG、Tool Calling、MCP、LangGraph 与流式交互的工程边界。
 ---
 
-## 技术方向
+## 主要方向
 
-`Frontend`　`JavaScript`　`Vue`　`Node.js`　`AI Agent`
+`Frontend Fundamentals`　`Algorithms`　`Agent Engineering`
 
-## 最近更新
+## 精选文章
 
 <div class="blog-grid">
-  <a class="blog-card" href="/posts/ai-agent/tool-calling-mcp"><div class="meta">2026-03-08 · AI Agent / MCP</div><h3>从 Tool Calling 到 MCP：让 Agent 使用工具</h3><p>梳理模型调用工具的协议边界，并用 MCP 的资源、工具和提示词建立可维护的连接。</p><div class="tags"><span class="tag">Tool Calling</span><span class="tag">MCP</span></div></a>
-  <a class="blog-card" href="/posts/javascript/promise-async"><div class="meta">2026-03-02 · JavaScript / TypeScript</div><h3>Promise 与 async/await：从状态机到错误边界</h3><p>从 Promise 的状态转换出发，理解串行、并行、取消和错误传播。</p><div class="tags"><span class="tag">Promise</span><span class="tag">异步编程</span></div></a>
-  <a class="blog-card" href="/posts/vue/composition-api"><div class="meta">2026-02-18 · Vue / 工程化</div><h3>Vue 3 Composition API 的可复用边界</h3><p>通过一个搜索列表拆分状态、请求和视图，让组合式函数保持可测试。</p><div class="tags"><span class="tag">Vue 3</span><span class="tag">组合式 API</span></div></a>
+  <a class="blog-card" href="/posts/javascript/promise-async"><div class="meta">JavaScript / 异步编程</div><h3>Promise 与 async/await：从状态机到错误边界</h3><p>从 Promise 状态转换出发，理解串行、并行、取消和错误传播。</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">前端八股</span></div></a>
+  <a class="blog-card" href="/posts/algorithm/shuffle-array"><div class="meta">算法与数据结构</div><h3>力扣 384：打乱数组</h3><p>用 Fisher-Yates 洗牌算法实现均匀随机打乱。</p><div class="tags"><span class="tag">算法</span><span class="tag">Fisher-Yates</span></div></a>
+  <a class="blog-card" href="/posts/ai-agent/tool-calling-mcp"><div class="meta">AI Agent / MCP</div><h3>从 Tool Calling 到 MCP</h3><p>梳理模型、工具服务和上下文之间的协议边界。</p><div class="tags"><span class="tag">Tool Calling</span><span class="tag">MCP</span></div></a>
 </div>
 
 ## 分类入口
@@ -49,10 +49,6 @@ features:
   <a class="blog-card" href="/categories/project"><h3>项目实践</h3><p>性能、流式输出与工程问题排查。</p></a>
 </div>
 
-## 精选项目
-
-目前这里保留为项目模板，方便在完成项目后补充内容。请前往[项目实践](/projects)查看字段说明。
-
 ## GitHub
 
-代码与文章源文件会同步到 GitHub：<https://github.com/yujinhao810>。
+代码与文章源文件同步在 [GitHub](https://github.com/yujinhao810)。

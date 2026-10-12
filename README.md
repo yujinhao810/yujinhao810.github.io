@@ -1,4 +1,4 @@
-# 个人技术博客
+# JynxHao
 
 这是一个基于 VitePress 的简体中文技术博客，面向 GitHub Pages 用户站点部署。站点源码位于 `docs/`，构建产物位于 `docs/.vitepress/dist`。
 

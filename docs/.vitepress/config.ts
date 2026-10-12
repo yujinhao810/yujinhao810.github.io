@@ -14,7 +14,10 @@ const sidebar = [
   {
     text: '算法与数据结构',
     collapsed: false,
-    items: [{ text: '滑动窗口：无重复字符的最长子串', link: '/posts/algorithm/longest-substring' }],
+    items: [
+      { text: '力扣 384：打乱数组', link: '/posts/algorithm/shuffle-array' },
+      { text: '滑动窗口：无重复字符的最长子串', link: '/posts/algorithm/longest-substring' },
+    ],
   },
   {
     text: 'Node.js / NestJS',
@@ -35,8 +38,8 @@ const sidebar = [
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '个人技术博客',
-  description: '记录前端、工程化与 AI Agent 的学习与实践。',
+  title: 'JynxHao',
+  description: '前端八股、算法与 Agent 技术的学习与实践。',
   cleanUrls: true,
   srcExclude: ['**/_template.md'],
   lastUpdated: true,
@@ -55,7 +58,7 @@ export default defineConfig({
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一篇', next: '下一篇' },
     lastUpdatedText: '最近更新',
-    footer: { message: '保持好奇，持续交付。', copyright: 'Copyright © 2026 · Personal Tech Blog' },
+    footer: { message: '保持好奇，持续交付。', copyright: 'Copyright © 2026 · JynxHao' },
     editLink: {
       pattern: 'https://github.com/yujinhao810/yujinhao.github.io/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',

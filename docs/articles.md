@@ -11,6 +11,7 @@ description: 按分类浏览所有技术文章
 
 | 日期 | 分类 | 文章 | 标签 |
 | --- | --- | --- | --- |
+| 2026-10-12 | 算法 | [力扣 384：打乱数组](/posts/algorithm/shuffle-array) | Fisher-Yates、数组 |
 | 2026-03-08 | AI Agent / MCP | [从 Tool Calling 到 MCP](/posts/ai-agent/tool-calling-mcp) | Tool Calling、MCP |
 | 2026-03-02 | JavaScript | [Promise 与 async/await](/posts/javascript/promise-async) | Promise、异步 |
 | 2026-02-25 | 项目实践 | [流式输出的前端设计](/posts/project/streaming-ui) | SSE、Vue |
