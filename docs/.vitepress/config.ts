@@ -44,7 +44,7 @@ export default defineConfig({
   srcExclude: ['**/_template.md'],
   lastUpdated: true,
   themeConfig: {
-    logo: '/logo.svg',
+    logo: { src: '/avatar.png', alt: 'JynxHao 头像' },
     nav: [
       { text: '首页', link: '/' },
       { text: '技术文章', link: '/articles' },
@@ -59,9 +59,5 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
     lastUpdatedText: '最近更新',
     footer: { message: '保持好奇，持续交付。', copyright: 'Copyright © 2026 · JynxHao' },
-    editLink: {
-      pattern: 'https://github.com/yujinhao810/yujinhao.github.io/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页',
-    },
   },
 })

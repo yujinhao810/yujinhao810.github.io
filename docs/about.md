@@ -51,5 +51,3 @@ description: 俞金浩的教育背景、技术栈与联系方式
 GitHub：[github.com/yujinhao810](https://github.com/yujinhao810)
 
 邮箱：<yujinhao810@stu.hznu.edu.cn>
-
-电话：19814780513
