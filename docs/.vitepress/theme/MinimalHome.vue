@@ -36,7 +36,7 @@ const categories = [
           <a :href="withBase(article.url)" class="article-link">{{ article.title }}</a>
           <div class="article-meta">
             <time :datetime="article.date">{{ article.date }}</time>
-            <span v-if="article.category">{{ article.category }}</span>
+            <span v-if="article.tags.length">{{ article.tags[0] }}</span>
           </div>
         </li>
       </ul>

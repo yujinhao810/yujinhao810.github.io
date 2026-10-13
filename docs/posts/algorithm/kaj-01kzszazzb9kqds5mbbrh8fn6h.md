@@ -1,0 +1,18 @@
+---
+title: "LeetCode 88. 合并两个有序数组"
+description: "由于 nums1 尾部预留了 n 个空位（初始为 0），若从前往后合并，会覆盖尚未处理的元素，因此采用从后向前的双指针合并方式。"
+date: "2026-08-12"
+publishedAt: "2026-08-12T11:23:18.541825+08:00"
+source: "https://kajspace.cn/articles/01KZSZAZZB9KQDS5MBBRH8FN6H/"
+tags: ["算法"]
+---
+
+# LeetCode 88. 合并两个有序数组
+
+![正文图片](/images/kajspace/99f7b31c56826c87.png)
+
+由于 nums1 尾部预留了 n 个空位（初始为 0），若从前往后合并，会覆盖尚未处理的元素，因此采用从后向前的双指针合并方式。
+
+具体做法：设置三个指针 —— p1 指向 nums1 有效部分的末尾（即 m - 1），p2 指向 nums2 的末尾（即 n - 1），p 指向合并后数组的末尾（即 m + n - 1）。循环以 p2 &gt;= 0 为继续条件，即只要 nums2 还有元素未合并，就持续执行。
+
+在每次循环中，先判断 p1 &gt;= 0 且 nums1[p1] &gt;= nums2[p2]，若成立，则将 nums1[p1] 放入 nums1[p]，并同时前移 p1 和 p；否则，将 nums2[p2] 放入 nums1[p]，并前移 p2 和 p。当 p1 &lt; 0 时，说明 nums1 的有效元素已全部处理完毕，此时只需将 nums2 的剩余元素依次填入 nums1 即可；当 p2 &lt; 0 时，说明 nums2 已全部合并，循环结束。

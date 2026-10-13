@@ -1,11 +1,5 @@
 import { createContentLoader } from 'vitepress'
-
-interface Article {
-  title: string
-  url: string
-  date: string
-  category: string
-}
+import { toArticles, type Article } from '../catalog'
 
 interface Project {
   name: string
@@ -19,26 +13,7 @@ export declare const data: { articles: Article[]; projects: Project[] }
 export default createContentLoader(['posts/**/*.md', 'projects.md'], {
   includeSrc: true,
   transform(pages) {
-    const articles: Article[] = pages
-      .filter((page) => page.url.startsWith('/posts/') && !page.url.includes('_template'))
-      .map((page) => {
-        const meta = page.frontmatter
-        // Explicit update dates avoid unrelated Git commits changing editorial order.
-        const rawDate = meta.updated ?? meta.date
-        const date = rawDate instanceof Date
-          ? rawDate.toISOString().slice(0, 10)
-          : String(rawDate ?? '')
-        if (!meta.title || !/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(Date.parse(date))) {
-          throw new Error(`文章缺少有效的 title 或 date/updated：${page.url}`)
-        }
-        return {
-          title: String(meta.title),
-          url: page.url,
-          date,
-          category: Array.isArray(meta.tags) ? String(meta.tags[0] ?? '') : '',
-        }
-      })
-      .sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url))
+    const articles = toArticles(pages)
 
     const source = pages.find((page) => page.url === '/projects')?.src
     if (!source) throw new Error('找不到项目实践页面')

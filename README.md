@@ -18,7 +18,7 @@ npm run docs:preview
 
 ## 新增文章
 
-复制 `docs/posts/_template.md` 到对应分类目录，填写 Frontmatter 和正文；然后在 `docs/articles.md` 添加索引，在 `docs/.vitepress/config.ts` 的侧边栏添加链接。完整说明见[新增文章指南](docs/writing.md)。
+复制 `docs/posts/_template.md` 到对应分类目录，填写 Frontmatter 和正文；文章总索引、分类列表、首页近期文章和侧边栏都会自动生成。新增文件后重启开发服务器刷新侧边栏。完整说明见[新增文章指南](docs/writing.md)。原博客迁移清单和验证结果见 [migration/README.md](migration/README.md)。
 
 ## GitHub Pages 首次部署
 

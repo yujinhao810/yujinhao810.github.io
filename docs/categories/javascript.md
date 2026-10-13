@@ -1,10 +1,14 @@
 ---
 title: JavaScript / TypeScript
-description: JavaScript 与 TypeScript 语言基础和异步编程
+description: 语言基础、类型系统、浏览器与前端面试笔记。
 ---
+
+<script setup>
+import ArticleList from '../.vitepress/theme/ArticleList.vue'
+</script>
 
 # JavaScript / TypeScript
 
-关注语言机制、异步编程、类型设计和可维护的抽象。
+语言基础、类型系统、浏览器与前端面试笔记。
 
-- [Promise 与 async/await：从状态机到错误边界](/posts/javascript/promise-async)
+<ArticleList category="javascript" />

@@ -14,5 +14,5 @@
 .vp-doc p, .vp-doc ul, .vp-doc ol, .vp-doc blockquote { margin: 1.1em 0; }
 .vp-doc h2 { margin-top: 2.8em; border-top: 1px solid var(--vp-c-divider); padding-top: 1.2em; }
 .vp-doc div[class*='language-'] { border: 1px solid var(--vp-c-divider); border-radius: 10px; }
-.vp-doc table { display: table; width: 100%; }
+.vp-doc table { display: block; max-width: 100%; overflow-x: auto; }
 @media (max-width: 640px) { .vp-doc { font-size: 15px; } }

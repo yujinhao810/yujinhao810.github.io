@@ -2,6 +2,8 @@
 title: 力扣 384：打乱数组（Shuffle an Array）
 description: 使用 Fisher-Yates 洗牌算法实现均匀随机打乱，并保证 reset 始终恢复原始排列
 date: 2026-10-12
+publishedAt: "2026-10-12T15:55:01.941492+08:00"
+source: "https://kajspace.cn/articles/01M4QHQ4JHD8ZERV1GS2XEEP2J/"
 tags:
   - 算法
   - 数组

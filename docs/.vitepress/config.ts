@@ -1,48 +1,20 @@
 import { defineConfig } from 'vitepress'
+import { loadSidebar } from './sidebar'
 
-const sidebar = [
-  {
-    text: 'JavaScript / TypeScript',
-    collapsed: false,
-    items: [{ text: 'Promise 与 async/await', link: '/posts/javascript/promise-async' }],
-  },
-  {
-    text: 'Vue / 前端工程化',
-    collapsed: false,
-    items: [{ text: 'Vue 3 Composition API 实践', link: '/posts/vue/composition-api' }],
-  },
-  {
-    text: '算法与数据结构',
-    collapsed: false,
-    items: [
-      { text: '力扣 384：打乱数组', link: '/posts/algorithm/shuffle-array' },
-      { text: '滑动窗口：无重复字符的最长子串', link: '/posts/algorithm/longest-substring' },
-    ],
-  },
-  {
-    text: 'Node.js / NestJS',
-    collapsed: false,
-    items: [{ text: 'Node.js 事件循环与 I/O', link: '/posts/node/event-loop' }],
-  },
-  {
-    text: 'AI Agent / RAG / MCP',
-    collapsed: false,
-    items: [{ text: '从 Tool Calling 到 MCP', link: '/posts/ai-agent/tool-calling-mcp' }],
-  },
-  {
-    text: '项目实践',
-    collapsed: false,
-    items: [{ text: '流式输出的前端设计', link: '/posts/project/streaming-ui' }],
-  },
-]
-
-export default defineConfig({
+export default defineConfig(async () => ({
   lang: 'zh-CN',
   title: 'JynxHao',
   description: '前端八股、算法与 Agent 技术的学习与实践。',
   cleanUrls: true,
   srcExclude: ['**/_template.md'],
   lastUpdated: true,
+  transformPageData(pageData) {
+    // 信息页不参与文章翻页，避免共享侧边栏生成无关的“下一篇”。
+    if (!pageData.relativePath.startsWith('posts/')) {
+      pageData.frontmatter.prev = false
+      pageData.frontmatter.next = false
+    }
+  },
   themeConfig: {
     logo: { src: '/avatar.png', alt: 'JynxHao 头像' },
     nav: [
@@ -53,11 +25,11 @@ export default defineConfig({
       { text: '项目实践', link: '/projects' },
       { text: '关于我', link: '/about' },
     ],
-    sidebar,
+    sidebar: await loadSidebar(),
     search: { provider: 'local' },
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一篇', next: '下一篇' },
     lastUpdatedText: '最近更新',
     footer: { message: '保持好奇，持续交付。', copyright: 'Copyright © 2026 · JynxHao' },
   },
-})
+}))

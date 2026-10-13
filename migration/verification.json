@@ -1,0 +1,13 @@
+{
+  "sourcePosts": 92,
+  "migratedPosts": 92,
+  "newPosts": 91,
+  "sitePosts": 98,
+  "htmlPages": 111,
+  "originalCodeBlocksPreserved": 1473,
+  "localLinksAssetsAnchors": 13982,
+  "articlePagerLinks": 194,
+  "removedEmptyCodeBlocks": 829,
+  "localImages": 80,
+  "status": "passed"
+}

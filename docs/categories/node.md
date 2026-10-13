@@ -1,8 +1,14 @@
 ---
 title: Node.js / NestJS
-description: Node.js 运行时、模块系统与服务端实践
+description: 服务端运行时、模块机制与 API 设计。
 ---
+
+<script setup>
+import ArticleList from '../.vitepress/theme/ArticleList.vue'
+</script>
 
 # Node.js / NestJS
 
-- [Node.js 事件循环与 I/O](/posts/node/event-loop)
+服务端运行时、模块机制与 API 设计。
+
+<ArticleList category="node" />

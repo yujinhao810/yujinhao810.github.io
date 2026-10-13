@@ -22,7 +22,9 @@ tags:
 ---
 ```
 
-日期使用 `YYYY-MM-DD`。文章索引目前集中维护在 `docs/articles.md`，新增后按日期降序加一行，并在需要时更新 `docs/.vitepress/config.ts` 的侧边栏。
+`date` 使用 `YYYY-MM-DD`，表示首次发布时间。迁移文章另用 `publishedAt` 保存原站完整时间，例如 `publishedAt: "2026-10-11T10:36:41.844069+08:00"`，不要将迁移当天作为发布日期。修改旧文时可添加 `updated`，不覆盖 `date` 和 `publishedAt`。
+
+文章索引、分类页、首页和侧边栏都从 Markdown 元数据生成，无需手动添加链接。目录决定分类，分类定义集中在 `docs/.vitepress/catalog.ts`；新增其他学习记录可放在 `docs/posts/notes/`。新增文件后重启开发服务器刷新侧边栏，正式构建会重新生成全部导航。页面底部的文章导航使用完整标题，与正文标题保持一致。
 
 首页无需添加文章链接：它会自动读取 `docs/posts/` 下的 Markdown 元数据，按 `updated`（没有时使用 `date`）倒序排列，在“近期文章”中展示最新的 8 篇文章。更新旧文时可添加 `updated: 2026-10-12`，日期格式同样为 `YYYY-MM-DD`。模板不会出现在首页。
 
@@ -36,3 +38,7 @@ npm run docs:build
 ```
 
 提交前检查链接、代码示例和暗色模式下的对比度。文章不需要手动添加目录，VitePress 会根据标题自动生成。
+
+## 4. 原博客迁移
+
+原站文章对应关系和完整发布时间保存在 `migration/kajspace-manifest.json`，迁移过程见 `migration/README.md`。`source` 字段用于文章顶部的原文入口。导入文章文件名采用原站永久 ID，避免同名文章相互覆盖；已有文章网址保持不变。
