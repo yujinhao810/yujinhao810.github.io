@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 21. 合并两个有序链表"
+title: "21. 合并两个有序链表"
 description: "看到这道题，首先想到的就是迭代，即尾插法，创建一个哨兵节点，作为合并后的链表表头节点的前一个节点，这样可以避免单独处理头节点，也无需特判链表为空的情况，从而简化代码。"
 date: "2026-08-19"
 publishedAt: "2026-08-19T09:55:08.689379+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01M0BVN82SWCBPPRW6EVRZ4BJ1/"
 tags: ["算法"]
 ---
 
-# LeetCode 21. 合并两个有序链表
+# 21. 合并两个有序链表
 
 ![正文图片](/images/kajspace/2c2c66df70b5e448.png)
 

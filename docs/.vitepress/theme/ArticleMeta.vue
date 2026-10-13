@@ -16,12 +16,9 @@ const label = computed(() => {
 <template>
   <p v-if="isArticle && date" class="article-publication">
     发布于 <time :datetime="date">{{ label }}</time>
-    <a v-if="frontmatter.source" :href="frontmatter.source" target="_blank" rel="noopener noreferrer">原文</a>
   </p>
 </template>
 
 <style scoped>
 .article-publication { margin: 0 0 20px; color: var(--vp-c-text-2); font-size: 12px; line-height: 1.8; }
-.article-publication a { margin-left: 12px; color: var(--vp-c-brand-1); text-decoration: underline; text-underline-offset: 3px; }
-.article-publication a:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 3px; }
 </style>

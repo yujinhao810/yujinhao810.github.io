@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 19. 删除链表的倒数第 N 个结点"
+title: "19. 删除链表的倒数第 N 个结点"
 description: "给定一个链表的头节点 head 和一个整数 n，删除链表的倒数第 n 个节点，并返回链表的头节点。"
 date: "2026-10-10"
 publishedAt: "2026-10-10T16:33:05.647565+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01M4JF3CC6PPHB9NX90YCM26XE/"
 tags: ["算法"]
 ---
 
-# LeetCode 19. 删除链表的倒数第 N 个结点
+# 19. 删除链表的倒数第 N 个结点
 
 <span id="kaj-h-33169135-10cf-4673-af5b-909ceb9addb9"></span>
 

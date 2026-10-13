@@ -1,5 +1,5 @@
 ---
-title: 力扣 384：打乱数组（Shuffle an Array）
+title: "384. 打乱数组"
 description: 使用 Fisher-Yates 洗牌算法实现均匀随机打乱，并保证 reset 始终恢复原始排列
 date: 2026-10-12
 publishedAt: "2026-10-12T15:55:01.941492+08:00"
@@ -11,7 +11,7 @@ tags:
   - JavaScript
 ---
 
-# 力扣 384：打乱数组（Shuffle an Array）
+# 384. 打乱数组
 
 ## 一、题目描述
 

@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 415. 字符串相加"
+title: "415. 字符串相加"
 description: "由于题目限制只能使用字符串实现加法，我采用模拟小学竖式加法的方式。具体做法是：设置双指针分别从两个字符串的个位开始向前遍历，同时维护一个进位变量。每位相加时，利用ASCII码将字符转换为数字；若某一字符串已遍历完，则用0补足，继续与另一位相"
 date: "2026-08-13"
 publishedAt: "2026-08-13T10:16:58.104539+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01KZWEGV8B0BJBFQ094Z54V9KH/"
 tags: ["算法"]
 ---
 
-# LeetCode 415. 字符串相加
+# 415. 字符串相加
 
 ![正文图片](/images/kajspace/aaf59d68657af83b.png)
 

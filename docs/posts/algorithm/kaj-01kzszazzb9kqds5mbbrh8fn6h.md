@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 88. 合并两个有序数组"
+title: "88. 合并两个有序数组"
 description: "由于 nums1 尾部预留了 n 个空位（初始为 0），若从前往后合并，会覆盖尚未处理的元素，因此采用从后向前的双指针合并方式。"
 date: "2026-08-12"
 publishedAt: "2026-08-12T11:23:18.541825+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01KZSZAZZB9KQDS5MBBRH8FN6H/"
 tags: ["算法"]
 ---
 
-# LeetCode 88. 合并两个有序数组
+# 88. 合并两个有序数组
 
 ![正文图片](/images/kajspace/99f7b31c56826c87.png)
 

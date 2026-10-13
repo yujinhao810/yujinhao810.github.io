@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 912. 排序数组"
+title: "912. 排序数组"
 description: "这道题和 215 题一样，都可以想到使用快速排序。不过 215 题只需要通过分区找到第 k 大的元素，而这道题需要把整个数组排好序，所以我还是采用快速排序的思路，通过递归不断划分子数组。"
 date: "2026-08-24"
 publishedAt: "2026-08-24T11:22:21.837814+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01M0RWMJZQ0TSV0131FXSX3QYJ/"
 tags: ["算法"]
 ---
 
-# LeetCode 912. 排序数组
+# 912. 排序数组
 
 ![正文图片](/images/kajspace/9772528eafaa0f7f.png)
 

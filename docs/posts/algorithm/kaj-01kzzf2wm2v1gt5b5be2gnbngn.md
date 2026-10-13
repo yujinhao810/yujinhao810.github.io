@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 102. 二叉树的层序遍历"
+title: "102. 二叉树的层序遍历"
 description: "这道题要求按照层级遍历一棵二叉树，也就是先遍历第一层，再遍历第二层、第三层……因此我首先想到用数组来模拟每一层的节点。具体来说，用 cur 数组存储当前层的所有节点，遍历 cur 的过程中，将每个节点的 val 存入 vals 数组，用于记"
 date: "2026-08-14"
 publishedAt: "2026-08-14T14:24:39.264821+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01KZZF2WM2V1GT5B5BE2GNBNGN/"
 tags: ["算法"]
 ---
 
-# LeetCode 102. 二叉树的层序遍历
+# 102. 二叉树的层序遍历
 
 ![正文图片](/images/kajspace/8c907ba081fa1f3c.png)
 

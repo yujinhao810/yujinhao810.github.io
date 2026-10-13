@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 15. 三数之和"
+title: "15. 三数之和"
 description: "枚举nums[i],问题变成 nums[j]+nums[k]=−nums[i]，这和两数之和是一样的。题目要求答案中不能有重复的三元组，如何避免重复？"
 date: "2026-08-18"
 publishedAt: "2026-08-18T11:38:14.832023+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01M09F4STGN1CCVEFJVD9J8QN4/"
 tags: ["算法"]
 ---
 
-# LeetCode 15. 三数之和
+# 15. 三数之和
 
 ![正文图片](/images/kajspace/42db569c7d2df91e.png)
 

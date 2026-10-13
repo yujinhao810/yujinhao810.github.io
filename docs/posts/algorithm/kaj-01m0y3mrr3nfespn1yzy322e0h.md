@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 54. 螺旋矩阵"
+title: "54. 螺旋矩阵"
 description: "这道题首先想到的是维护 上、下、左、右四个边界变量，分别用 top、bottom、left、right 表示当前还没有遍历的区域。"
 date: "2026-08-26"
 publishedAt: "2026-08-26T12:17:04.565335+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01M0Y3MRR3NFESPN1YZY322E0H/"
 tags: ["算法"]
 ---
 
-# LeetCode 54. 螺旋矩阵
+# 54. 螺旋矩阵
 
 ![正文图片](/images/kajspace/2e6984253bb19c5b.png)
 

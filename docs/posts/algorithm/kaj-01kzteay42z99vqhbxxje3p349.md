@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 20. 有效括号"
+title: "20. 有效括号"
 description: "括号匹配使用栈结构来实现。首先，如果字符串长度是奇数，可以直接判定为不匹配，因为括号必须成对出现。然后遍历字符串中的每个字符，遇到左括号（如圆括号、方括号、花括号）就将其压入栈中；遇到右括号时，先检查栈是否为空，如果为空说明没有对应的左括号"
 date: "2026-08-12"
 publishedAt: "2026-08-12T15:35:47.243950+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01KZTEAY42Z99VQHBXXJE3P349/"
 tags: ["算法"]
 ---
 
-# LeetCode 20. 有效括号
+# 20. 有效括号
 
 ![正文图片](/images/kajspace/2826bfe86fd2c4de.png)
 

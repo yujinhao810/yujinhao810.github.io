@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 146. LRU缓存"
+title: "146. LRU缓存"
 description: "做过两遍的题，再做还是有点不熟练，双向链表的插入和删除操作，以及get和put的逻辑，还有核心的节点查找#getNode。这道题的核心思想在于用双向链表实现节点的删除与新增，然后维护一个哈希表保存 key 到 Node 节点的映射，这里为什"
 date: "2026-08-17"
 publishedAt: "2026-08-17T11:55:08.513263+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01M06XQC9HH1M4Y9A97P6KTF2F/"
 tags: ["算法"]
 ---
 
-# LeetCode 146. LRU缓存
+# 146. LRU缓存
 
 ![正文图片](/images/kajspace/921a8debcdba6710.png)
 

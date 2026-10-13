@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 206. 反转链表"
+title: "206. 反转链表"
 description: "构造一个链表最基础的两种方法是什么？头插法和尾插法。"
 date: "2026-08-14"
 publishedAt: "2026-08-14T10:20:33.709802+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01KZZ142GNN6AM553NCFSKE2T2/"
 tags: ["算法"]
 ---
 
-# LeetCode 206. 反转链表
+# 206. 反转链表
 
 ![正文图片](/images/kajspace/6042efdea2d7c92b.png)
 

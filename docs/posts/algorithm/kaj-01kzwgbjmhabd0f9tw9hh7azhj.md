@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 1. 两数之和"
+title: "1. 两数之和"
 description: "想要做出这道题非常简单，两个for循环搞定，但时间复杂度O（n^2），因此，怎么样降低时间复杂度呢，我想到了可以采用哈希表（Map）来存储已遍历过的元素及其下标。在遍历数组时，对于当前元素，计算目标值与它的差值，若该差值已在 Map 中存在"
 date: "2026-08-13"
 publishedAt: "2026-08-13T10:49:24.514942+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01KZWGBJMHABD0F9TW9HH7AZHJ/"
 tags: ["算法"]
 ---
 
-# LeetCode 1. 两数之和
+# 1. 两数之和
 
 ![正文图片](/images/kajspace/c5208ec76c92cbf5.png)
 

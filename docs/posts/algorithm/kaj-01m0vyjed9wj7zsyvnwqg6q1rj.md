@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 5. 最长回文子串"
+title: "5. 最长回文子串"
 description: "不用暴力枚举，能不能O（1）判断一个字串是不是回文的？"
 date: "2026-08-25"
 publishedAt: "2026-08-25T15:55:03.583959+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01M0VYJED9WJ7ZSYVNWQG6Q1RJ/"
 tags: ["算法"]
 ---
 
-# LeetCode 5. 最长回文子串
+# 5. 最长回文子串
 
 ![正文图片](/images/kajspace/f43fa7161a3679ff.png)
 

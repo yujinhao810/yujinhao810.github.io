@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 46. 全排列"
+title: "46. 全排列"
 description: "针对全排列问题，我们采用回溯法，并通过递归函数 dfs(i) 逐位构建排列，其中 i表示当前填充的位置索引；为了在每一步都能判断某个元素是否已被使用，我们需要维护一个布尔型的标记数组 onPath，当 onPath[i] 为 true 时表"
 date: "2026-08-13"
 publishedAt: "2026-08-13T14:23:11.005583+08:00"
@@ -7,7 +7,7 @@ source: "https://kajspace.cn/articles/01KZWWKJK28Y0D76Q7EJEBQTMY/"
 tags: ["算法"]
 ---
 
-# LeetCode 46. 全排列
+# 46. 全排列
 
 ![正文图片](/images/kajspace/8e9b0602c2dd597a.png)
 
