@@ -1,7 +1,8 @@
 ---
 title: 文章标题
 description: 文章摘要
-date: 2026-03-10
+date: "2026-03-10"
+publishedAt: "2026-03-10T10:00:00+08:00"
 tags:
   - 分类标签
 ---

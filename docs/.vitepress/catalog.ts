@@ -24,7 +24,7 @@ function dateString(value: unknown): string {
   return value instanceof Date ? value.toISOString() : String(value ?? '')
 }
 
-// All article views share the same metadata and sort order.
+// 按完整发布时间倒序排列；旧文更新不改变发布顺序，同一时间以网址稳定排序。
 export function toArticles(pages: { url: string; frontmatter: Record<string, any> }[]): Article[] {
   return pages.filter(p => p.url.startsWith('/posts/') && !p.url.includes('_template')).map(page => {
     const meta = page.frontmatter
@@ -32,7 +32,7 @@ export function toArticles(pages: { url: string; frontmatter: Record<string, any
     const publishedAt = dateString(meta.publishedAt || meta.date)
     const categoryId = page.url.split('/')[2]
     const category = categories.find(c => c.id === categoryId)
-    const sortTime = Date.parse(dateString(meta.updated || publishedAt))
+    const sortTime = Date.parse(publishedAt)
     if (!meta.title || !category || !/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(sortTime)) {
       throw new Error(`文章元数据无效：${page.url}`)
     }

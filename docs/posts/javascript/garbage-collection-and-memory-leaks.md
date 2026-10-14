@@ -2,6 +2,7 @@
 title: JavaScript 垃圾回收与内存泄漏详解
 description: 理解标记清除、引用计数与可达性分析，梳理常见内存泄漏场景及 Chrome DevTools 排查方法。
 date: "2026-10-14"
+publishedAt: "2026-10-14T10:05:41+08:00"
 tags:
   - JavaScript
   - 垃圾回收

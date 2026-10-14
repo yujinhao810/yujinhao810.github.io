@@ -8,7 +8,7 @@ const articles = computed(() => props.category ? data.filter(a => a.categoryId =
 </script>
 
 <template>
-  <p class="article-count">共 {{ articles.length }} 篇 · 按更新时间排序</p>
+  <p class="article-count">共 {{ articles.length }} 篇 · 按发布时间排序</p>
   <ul v-if="articles.length" class="catalog-list">
     <li v-for="article in articles" :key="article.url">
       <a :href="withBase(article.url)">{{ article.title }}</a>

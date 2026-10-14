@@ -2,6 +2,7 @@
 title: JavaScript 中的 this、call、apply、bind 详解
 description: 梳理 this 的绑定规则，比较 call、apply、bind 的差异，并通过手写实现理解它们的工作原理。
 date: "2026-10-14"
+publishedAt: "2026-10-14T16:40:58+08:00"
 tags:
   - JavaScript
   - this

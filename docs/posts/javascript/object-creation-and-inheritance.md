@@ -2,6 +2,7 @@
 title: JavaScript 对象创建与继承方式总结
 description: 梳理八种对象创建方式、六种经典继承模式与 class extends，理解原型链、属性共享和方法复用。
 date: "2026-10-14"
+publishedAt: "2026-10-14T09:22:49+08:00"
 tags:
   - JavaScript
   - 原型链
