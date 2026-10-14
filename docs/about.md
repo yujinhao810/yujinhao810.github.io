@@ -36,11 +36,12 @@ description: 俞金浩的教育背景、技术栈与联系方式
 - **网络与浏览器**：HTTP / HTTPS、CORS、Cookie / Token、浏览器渲染、SSE 流式数据处理
 - **AI 应用开发**：RAG、混合检索、RRF、Tool Calling、LangGraph.js、StateGraph、条件路由和多节点工作流
 
-## 最近关注
+## 生活记录
 
-1. 把复杂业务拆成清晰的组件、状态和接口边界。
-2. 为流式交互设计可恢复、可观测的用户体验。
-3. 探索 RAG、Tool Calling 和 LangGraph.js 在真实应用中的组合方式。
+<figure class="life-photo">
+  <img src="/life-photo.jpg" alt="在西安城墙上骑行的生活照" loading="lazy" />
+  <figcaption>在西安城墙上的骑行记录</figcaption>
+</figure>
 
 ## 项目入口
 

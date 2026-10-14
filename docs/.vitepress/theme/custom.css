@@ -15,4 +15,7 @@
 .vp-doc h2 { margin-top: 2.8em; border-top: 1px solid var(--vp-c-divider); padding-top: 1.2em; }
 .vp-doc div[class*='language-'] { border: 1px solid var(--vp-c-divider); border-radius: 10px; }
 .vp-doc table { display: block; max-width: 100%; overflow-x: auto; }
+.vp-doc .life-photo { margin: 2.8em 0 1.6em; }
+.vp-doc .life-photo img { display: block; width: min(100%, 760px); max-height: 520px; object-fit: cover; border: 1px solid var(--vp-c-divider); border-radius: 12px; }
+.vp-doc .life-photo figcaption { margin-top: 0.65em; color: var(--vp-c-text-2); font-size: 13px; }
 @media (max-width: 640px) { .vp-doc { font-size: 15px; } }
