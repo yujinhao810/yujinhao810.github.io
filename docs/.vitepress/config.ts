@@ -5,6 +5,7 @@ export default defineConfig(async () => ({
   lang: 'zh-CN',
   title: 'JynxHao',
   description: '前端八股、算法与 Agent 技术的学习与实践。',
+  head: [['link', { rel: 'icon', type: 'image/png', href: '/avatar.png' }]],
   cleanUrls: true,
   srcExclude: ['**/_template.md'],
   lastUpdated: true,
