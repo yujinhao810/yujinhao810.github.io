@@ -1,14 +1,14 @@
 ---
-title: JavaScript / TypeScript
-description: 语言基础、类型系统、浏览器与前端面试笔记。
+title: 前端基础
+description: JavaScript、TypeScript、HTML、CSS 与浏览器基础知识。
 ---
 
 <script setup>
 import ArticleList from '../.vitepress/theme/ArticleList.vue'
 </script>
 
-# JavaScript / TypeScript
+# 前端基础
 
-语言基础、类型系统、浏览器与前端面试笔记。
+JavaScript、TypeScript、HTML、CSS 与浏览器基础知识。
 
 <ArticleList category="javascript" />

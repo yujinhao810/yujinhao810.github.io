@@ -1,5 +1,6 @@
 ---
 title: "跨域问题及其解决方法"
+category: network
 description: "跨域（Cross-Origin）问题是在前后端分离开发中最常见、也最基础的一个概念。"
 date: "2026-08-25"
 publishedAt: "2026-08-25T17:32:07.550738+08:00"

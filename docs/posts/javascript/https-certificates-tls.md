@@ -1,5 +1,6 @@
 ---
 title: HTTPS 协议详解：数字证书、CA、证书链与加密通信
+category: network
 description: 梳理 HTTPS 中数字证书、CA 与证书链的信任关系，理解 TLS 握手、身份认证、密钥协商和加密通信的工作原理。
 date: "2026-10-20"
 publishedAt: "2026-10-20T16:16:50+08:00"

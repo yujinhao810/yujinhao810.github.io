@@ -1,6 +1,7 @@
 export const categories = [
-  { id: 'javascript', title: 'JavaScript / TypeScript' },
+  { id: 'javascript', title: '前端基础' },
   { id: 'vue', title: 'Vue / 前端工程化' },
+  { id: 'network', title: '计算机网络' },
   { id: 'algorithm', title: '算法与数据结构' },
   { id: 'node', title: 'Node.js / NestJS' },
   { id: 'ai-agent', title: 'AI Agent / RAG / MCP' },
@@ -30,7 +31,8 @@ export function toArticles(pages: { url: string; frontmatter: Record<string, any
     const meta = page.frontmatter
     const date = dateString(meta.date).slice(0, 10)
     const publishedAt = dateString(meta.publishedAt || meta.date)
-    const categoryId = page.url.split('/')[2]
+    // 允许分类独立于目录调整，保留已发布文章的网址。
+    const categoryId = String(meta.category ?? page.url.split('/')[2])
     const category = categories.find(c => c.id === categoryId)
     const sortTime = Date.parse(publishedAt)
     if (!meta.title || !category || !/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(sortTime)) {

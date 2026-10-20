@@ -1,5 +1,6 @@
 ---
 title: HTTP 协议详解：从基础知识到面试高频考点
+category: network
 description: 从请求响应、缓存与跨域到 HTTP 版本演进、HTTPS 和浏览器加载流程，系统梳理 HTTP 核心知识与前端面试高频考点。
 date: "2026-10-20"
 publishedAt: "2026-10-20T10:59:36+08:00"

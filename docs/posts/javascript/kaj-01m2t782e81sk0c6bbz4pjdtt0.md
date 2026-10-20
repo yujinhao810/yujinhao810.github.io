@@ -1,5 +1,6 @@
 ---
 title: "如何解决跨域？"
+category: network
 description: "其实跨域只需要先抓住一个核心："
 date: "2026-09-18"
 publishedAt: "2026-09-18T20:18:23.436282+08:00"

@@ -1,5 +1,6 @@
 ---
 title: "HTTP和HTTPS的区别，HTTPS 建立连接的完整过程"
+category: network
 description: "一句话先记："
 date: "2026-09-02"
 publishedAt: "2026-09-02T10:40:57.746394+08:00"
