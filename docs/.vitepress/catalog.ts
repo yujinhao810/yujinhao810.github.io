@@ -1,5 +1,6 @@
 export const categories = [
   { id: 'javascript', title: '前端基础' },
+  { id: 'browser', title: '浏览器原理' },
   { id: 'vue', title: 'Vue / 前端工程化' },
   { id: 'network', title: '计算机网络' },
   { id: 'algorithm', title: '算法与数据结构' },

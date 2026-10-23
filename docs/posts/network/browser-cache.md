@@ -1,6 +1,6 @@
 ---
 title: 浏览器缓存：强缓存、协商缓存与缓存策略
-category: network
+category: browser
 description: 从 Cache-Control、Expires 到 ETag 与条件请求，梳理浏览器缓存流程、资源哈希、刷新行为和常见面试误区。
 date: "2026-10-21"
 publishedAt: "2026-10-21T11:45:34+08:00"

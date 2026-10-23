@@ -1,6 +1,6 @@
 ---
 title: 浏览器本地存储详解：Cookie、LocalStorage、SessionStorage 与 IndexedDB
-category: javascript
+category: browser
 description: 对比 Cookie、LocalStorage、SessionStorage 与 IndexedDB 的生命周期、容量、共享范围和安全边界，梳理浏览器存储的 API 与选型思路。
 date: "2026-10-23"
 publishedAt: "2026-10-23T16:09:02+08:00"

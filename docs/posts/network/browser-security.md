@@ -1,6 +1,6 @@
 ---
 title: 浏览器安全：XSS、CSRF、中间人攻击与网络劫持
-category: network
+category: browser
 description: 梳理 XSS、CSRF、Cookie、CSP 与第三方资源的安全边界，理解 HTTPS 对中间人攻击和网络劫持的防护作用及常见面试考点。
 date: "2026-10-21"
 publishedAt: "2026-10-21T11:00:34+08:00"

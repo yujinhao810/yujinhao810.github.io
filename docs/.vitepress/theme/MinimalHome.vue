@@ -4,6 +4,7 @@ import { data } from './home.data'
 
 const categories = [
   { label: '前端八股', url: '/categories/javascript' },
+  { label: '浏览器原理', url: '/categories/browser' },
   { label: '计算机网络', url: '/categories/network' },
   { label: '算法', url: '/categories/algorithm' },
   { label: 'Agent', url: '/categories/ai-agent' },
